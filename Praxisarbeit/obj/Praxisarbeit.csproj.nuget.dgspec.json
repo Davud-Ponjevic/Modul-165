@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\davud\\OneDrive - ipso! Bildung\\Lehrjahr 2\\Semester 1\\Module\\Modul 295\\Praxisarbeit\\Praxisarbeit\\Praxisarbeit\\Praxisarbeit.csproj": {}
+    "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\Praxisarbeit.csproj": {}
   },
   "projects": {
-    "C:\\Users\\davud\\OneDrive - ipso! Bildung\\Lehrjahr 2\\Semester 1\\Module\\Modul 295\\Praxisarbeit\\Praxisarbeit\\Praxisarbeit\\Praxisarbeit.csproj": {
+    "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\Praxisarbeit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davud\\OneDrive - ipso! Bildung\\Lehrjahr 2\\Semester 1\\Module\\Modul 295\\Praxisarbeit\\Praxisarbeit\\Praxisarbeit\\Praxisarbeit.csproj",
+        "projectUniqueName": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\Praxisarbeit.csproj",
         "projectName": "Praxisarbeit",
-        "projectPath": "C:\\Users\\davud\\OneDrive - ipso! Bildung\\Lehrjahr 2\\Semester 1\\Module\\Modul 295\\Praxisarbeit\\Praxisarbeit\\Praxisarbeit\\Praxisarbeit.csproj",
+        "projectPath": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\Praxisarbeit.csproj",
         "packagesPath": "C:\\Users\\davud\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davud\\OneDrive - ipso! Bildung\\Lehrjahr 2\\Semester 1\\Module\\Modul 295\\Praxisarbeit\\Praxisarbeit\\Praxisarbeit\\obj\\",
+        "outputPath": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,17 +45,13 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[7.0.14, )"
-            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.13, )"
             },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
-              "version": "[5.1.2, )"
+              "version": "[5.1.4, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
