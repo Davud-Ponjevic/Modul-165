@@ -1,0 +1,77 @@
+2024-01-26 16:35:01.260 +01:00 [FTL] Host terminated unexpectedly
+System.IO.DirectoryNotFoundException: C:\Users\davud\OneDrive\Desktop\Praxisarbeit\Praxisarbeit\wwwroot\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.AspNetCore.Hosting.StaticWebAssets.StaticWebAssetsLoader.<>c.<UseStaticWebAssetsCore>b__1_0(String contentRoot)
+   at Microsoft.AspNetCore.StaticWebAssets.ManifestStaticWebAssetFileProvider..ctor(StaticWebAssetManifest manifest, Func`2 fileProviderFactory)
+   at Microsoft.AspNetCore.Hosting.StaticWebAssets.StaticWebAssetsLoader.UseStaticWebAssetsCore(IWebHostEnvironment environment, Stream manifest)
+   at Microsoft.AspNetCore.Hosting.StaticWebAssets.StaticWebAssetsLoader.UseStaticWebAssets(IWebHostEnvironment environment, IConfiguration configuration)
+   at Microsoft.Extensions.Hosting.HostBuilder.InitializeAppConfiguration()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Program.Main(String[] args) in C:\Github\Modul 165\Modul-165\Praxisarbeit\Program.cs:line 31
+2024-01-26 16:40:01.568 +01:00 [FTL] Host terminated unexpectedly
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: AppDbContext Lifetime: Scoped ImplementationType: AppDbContext': Unable to resolve service for type 'MongoDB.Driver.IMongoDatabase' while attempting to activate 'AppDbContext'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: AppDbContext Lifetime: Scoped ImplementationType: AppDbContext': Unable to resolve service for type 'MongoDB.Driver.IMongoDatabase' while attempting to activate 'AppDbContext'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'MongoDB.Driver.IMongoDatabase' while attempting to activate 'AppDbContext'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.InitializeServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Program.Main(String[] args) in C:\Github\Modul 165\Modul-165\Praxisarbeit\Program.cs:line 31
+2024-01-26 16:48:48.216 +01:00 [INF] User profile is available. Using 'C:\Users\davud\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-26 16:48:49.483 +01:00 [INF] Now listening on: https://localhost:7113
+2024-01-26 16:48:49.484 +01:00 [INF] Now listening on: http://localhost:5297
+2024-01-26 16:48:49.487 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-26 16:48:49.488 +01:00 [INF] Hosting environment: Development
+2024-01-26 16:48:49.490 +01:00 [INF] Content root path: C:\Github\Modul 165\Modul-165\Praxisarbeit
+2024-01-26 16:48:51.922 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/swagger - -
+2024-01-26 16:48:52.189 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/swagger - - - 301 0 - 269.0780ms
+2024-01-26 16:48:52.198 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/swagger/index.html - -
+2024-01-26 16:48:52.339 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/swagger/index.html - - - 200 - text/html;charset=utf-8 141.5672ms
+2024-01-26 16:48:52.387 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/swagger/swagger-ui.css - -
+2024-01-26 16:48:52.390 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/swagger/swagger-ui-bundle.js - -
+2024-01-26 16:48:52.390 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/swagger/swagger-ui-standalone-preset.js - -
+2024-01-26 16:48:52.393 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - -
+2024-01-26 16:48:52.393 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/_vs/browserLink - -
+2024-01-26 16:48:52.419 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - - - 200 13760 application/javascript;+charset=utf-8 27.7553ms
+2024-01-26 16:48:52.560 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-01-26 16:48:52.560 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-01-26 16:48:52.562 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/swagger/swagger-ui.css - - - 200 144929 text/css 175.5344ms
+2024-01-26 16:48:52.568 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 177.5772ms
+2024-01-26 16:48:52.596 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-01-26 16:48:52.597 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 210.1775ms
+2024-01-26 16:48:52.611 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 220.1601ms
+2024-01-26 16:48:52.976 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - -
+2024-01-26 16:48:53.009 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/swagger/favicon-32x32.png - -
+2024-01-26 16:48:53.012 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-01-26 16:48:53.014 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/swagger/favicon-32x32.png - - - 200 628 image/png 5.0944ms
+2024-01-26 16:48:53.083 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 106.5885ms
+2024-01-26 16:49:09.493 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7113/api/Registration application/json 225
+2024-01-26 16:49:10.697 +01:00 [INF] Executing endpoint 'RegistrationController.CreateRegistration (Praxisarbeit)'
+2024-01-26 16:49:10.812 +01:00 [INF] Route matched with {action = "CreateRegistration", controller = "Registration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateRegistration(Praxisarbeit.Dto.RegistrationDto) on controller RegistrationController (Praxisarbeit).
+2024-01-26 16:53:38.011 +01:00 [INF] User profile is available. Using 'C:\Users\davud\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-26 16:53:38.498 +01:00 [INF] Now listening on: https://localhost:7113
+2024-01-26 16:53:38.500 +01:00 [INF] Now listening on: http://localhost:5297
+2024-01-26 16:53:38.503 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-26 16:53:38.505 +01:00 [INF] Hosting environment: Development
+2024-01-26 16:53:38.506 +01:00 [INF] Content root path: C:\Github\Modul 165\Modul-165\Praxisarbeit
+2024-01-26 16:53:41.415 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/swagger/index.html - -
+2024-01-26 16:53:41.719 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/swagger/index.html - - - 200 - text/html;charset=utf-8 306.9739ms
+2024-01-26 16:53:41.790 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/_vs/browserLink - -
+2024-01-26 16:53:41.790 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - -
+2024-01-26 16:53:41.843 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - - - 200 13760 application/javascript;+charset=utf-8 52.6141ms
+2024-01-26 16:53:41.880 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 90.3067ms
+2024-01-26 16:53:42.336 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - -
+2024-01-26 16:53:42.444 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 107.7950ms
+2024-01-26 16:54:22.892 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7113/api/Registration application/json 221
+2024-01-26 16:54:23.072 +01:00 [INF] Executing endpoint 'RegistrationController.CreateRegistration (Praxisarbeit)'
+2024-01-26 16:54:23.119 +01:00 [INF] Route matched with {action = "CreateRegistration", controller = "Registration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateRegistration(Praxisarbeit.Dto.RegistrationDto) on controller RegistrationController (Praxisarbeit).

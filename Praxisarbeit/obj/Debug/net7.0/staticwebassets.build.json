@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xTs5O8PrOUbqY81ACGfGEscLPDFZ00BRes67CiZM7bc=",
+  "Hash": "JgCje/HALdzAyHr3SdAwhbEbAwqQ9TvTy7BvsZjan3Q=",
   "Source": "Praxisarbeit",
   "BasePath": "_content/Praxisarbeit",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Praxisarbeit\\wwwroot",
       "Source": "Praxisarbeit",
-      "ContentRoot": "C:\\Users\\davud\\OneDrive\\Desktop\\Praxisarbeit\\Praxisarbeit\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\wwwroot\\",
       "BasePath": "_content/Praxisarbeit",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\davud\\OneDrive\\Desktop\\Praxisarbeit\\Praxisarbeit\\wwwroot\\angebot.html",
+      "Identity": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\wwwroot\\angebot.html",
       "SourceId": "Praxisarbeit",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davud\\OneDrive\\Desktop\\Praxisarbeit\\Praxisarbeit\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\wwwroot\\",
       "BasePath": "_content/Praxisarbeit",
       "RelativePath": "angebot.html",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\angebot.html"
     },
     {
-      "Identity": "C:\\Users\\davud\\OneDrive\\Desktop\\Praxisarbeit\\Praxisarbeit\\wwwroot\\bilder\\Hintergrundfürwebseite.jpg",
+      "Identity": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\wwwroot\\bilder\\Hintergrundfürwebseite.jpg",
       "SourceId": "Praxisarbeit",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davud\\OneDrive\\Desktop\\Praxisarbeit\\Praxisarbeit\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\wwwroot\\",
       "BasePath": "_content/Praxisarbeit",
       "RelativePath": "bilder/Hintergrundfürwebseite.jpg",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\bilder\\Hintergrundfürwebseite.jpg"
     },
     {
-      "Identity": "C:\\Users\\davud\\OneDrive\\Desktop\\Praxisarbeit\\Praxisarbeit\\wwwroot\\bilder\\LogoJetstream.png",
+      "Identity": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\wwwroot\\bilder\\LogoJetstream.png",
       "SourceId": "Praxisarbeit",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davud\\OneDrive\\Desktop\\Praxisarbeit\\Praxisarbeit\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\wwwroot\\",
       "BasePath": "_content/Praxisarbeit",
       "RelativePath": "bilder/LogoJetstream.png",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\bilder\\LogoJetstream.png"
     },
     {
-      "Identity": "C:\\Users\\davud\\OneDrive\\Desktop\\Praxisarbeit\\Praxisarbeit\\wwwroot\\index.html",
+      "Identity": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\wwwroot\\index.html",
       "SourceId": "Praxisarbeit",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davud\\OneDrive\\Desktop\\Praxisarbeit\\Praxisarbeit\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\wwwroot\\",
       "BasePath": "_content/Praxisarbeit",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\davud\\OneDrive\\Desktop\\Praxisarbeit\\Praxisarbeit\\wwwroot\\scripts\\main.js",
+      "Identity": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\wwwroot\\scripts\\main.js",
       "SourceId": "Praxisarbeit",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davud\\OneDrive\\Desktop\\Praxisarbeit\\Praxisarbeit\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\wwwroot\\",
       "BasePath": "_content/Praxisarbeit",
       "RelativePath": "scripts/main.js",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\scripts\\main.js"
     },
     {
-      "Identity": "C:\\Users\\davud\\OneDrive\\Desktop\\Praxisarbeit\\Praxisarbeit\\wwwroot\\styles\\main.css",
+      "Identity": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\wwwroot\\styles\\main.css",
       "SourceId": "Praxisarbeit",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davud\\OneDrive\\Desktop\\Praxisarbeit\\Praxisarbeit\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\wwwroot\\",
       "BasePath": "_content/Praxisarbeit",
       "RelativePath": "styles/main.css",
       "AssetKind": "All",

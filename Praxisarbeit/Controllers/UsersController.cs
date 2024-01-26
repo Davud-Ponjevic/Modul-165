@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MongoDB.Driver;
 using Praxisarbeit.Dto;
 using Praxisarbeit.Model;
 using Praxisarbeit.Services;
@@ -20,26 +21,24 @@ namespace Praxisarbeit.Controllers
         }
 
         [HttpPost("login")]
-        public IActionResult Login(LoginDto Model)
+        public IActionResult Login(LoginDto model)
         {
-            var user = _dbContext.Users.FirstOrDefault(u => u.UserName == Model.UserName);
+            var user = _dbContext.Users.Find(u => u.UserName == model.UserName).FirstOrDefault();
             if (user == null)
-
             {
-                return BadRequest("User nicht vorhanden");
-
+                return BadRequest("User not found");
             }
-            if (user.Password.Equals(Model.Password)) 
+
+            if (user.Password.Equals(model.Password))
             {
-                var token = _tokenService.CreateToken(Model.UserName);
+                var token = _tokenService.CreateToken(model.UserName);
                 return Ok(
                     new JsonResult(new { token = token, username = user.UserName })
                 );
-
             }
 
-            return BadRequest("invalid login data");
-
+            return BadRequest("Invalid login data");
         }
+
     }
 }

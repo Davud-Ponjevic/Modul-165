@@ -1,13 +1,14 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿namespace Praxisarbeit.Model;
 
-namespace Praxisarbeit.Model
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
+
+public class Service
 {
-    public class Service
-    {
-        [Key]
-        public int Id { get; set; }
+    [BsonId]
+    [BsonRepresentation(BsonType.ObjectId)]
+    public string Id { get; set; }
 
-        public string Beschreibung{ get; set; }
-
-    }
+    public string Beschreibung { get; set; }
 }
+

@@ -1,42 +1,38 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿namespace Praxisarbeit.Model;
+
+using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 
-namespace Praxisarbeit.Model
+public class Order
 {
-    public class Order
-    {
-        [Key]
-        public int Id { get; set; }
+    [BsonId]
+    [BsonRepresentation(BsonType.ObjectId)]
+    public string Id { get; set; }
 
-        public int? UserId { get; set; }
+    [BsonRepresentation(BsonType.ObjectId)]
+    public string UserId { get; set; }
 
-        public virtual User User { get; set; }
+    [BsonRepresentation(BsonType.ObjectId)]
+    public string PriorityId { get; set; }
 
-        public int PriorityId { get; set; }
+    [BsonRepresentation(BsonType.ObjectId)]
+    public string ServiceId { get; set; }
 
-        public virtual Priority Priority { get; set; }
+    public string Name { get; set; }
 
-        public int ServiceId { get; set; }
+    [EmailAddress]
+    public string Email { get; set; }
 
-        public virtual Service Service { get; set; }
+    [Phone]
+    public string Phone { get; set; }
 
+    public DateTime CreateDate { get; set; }
 
-        [Required]
-        public string Name { get; set; }
-
-        [Required]
-        [EmailAddress]
-        public string Email { get; set; }
-
-        [Required]
-        [Phone]
-        public string Phone { get; set; }
-
-        [Required]
-        public DateTime CreateDate { get; set; }
-
-        [Required]
-        public DateTime PickupDate { get; set; }
-
-    }
+    public DateTime PickupDate { get; set; }
 }
+
+
+

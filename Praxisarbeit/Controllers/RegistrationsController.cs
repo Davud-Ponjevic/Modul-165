@@ -5,6 +5,8 @@ using Praxisarbeit.Model;
 using System;
 using System.Linq;
 using Praxisarbeit.Dto;
+using MongoDB.Driver;
+
 
 [ApiController]
 [Route("api/[controller]")]
@@ -20,14 +22,16 @@ public class RegistrationController : ControllerBase
     [HttpGet]
     public IActionResult GetAllRegistrations()
     {
-        var registrations = _dbContext.Registrations.ToList();
+        var registrations = _dbContext.Registrations.Find(_ => true).ToList();
         return Ok(registrations);
     }
+
 
     [HttpGet("{name}")]
     public IActionResult GetRegistrationByName(string name)
     {
-        var registration = _dbContext.Registrations.FirstOrDefault(r => r.Name == name);
+        var registration = _dbContext.Registrations.Find(r => r.Name == name).FirstOrDefault();
+
 
         if (registration == null)
         {
@@ -40,13 +44,15 @@ public class RegistrationController : ControllerBase
     [HttpPost]
     public IActionResult CreateRegistration([FromBody] RegistrationDto registrationDto)
     {
-        if (registrationDto == null)
-        {
-            return BadRequest("Invalid data");
-        }
-
         try
         {
+            // Validierung der Eingabedaten
+            if (registrationDto == null)
+            {
+                return BadRequest("Invalid data");
+            }
+
+            // Erstellen Sie ein neues Order-Objekt aus den übermittelten Daten
             var registrationModel = new Order
             {
                 Name = registrationDto.Name,
@@ -57,27 +63,33 @@ public class RegistrationController : ControllerBase
                 CreateDate = DateTime.Now,
                 PickupDate = registrationDto.PickupDate
             };
+
+            // Falls UserId vorhanden ist, weisen Sie es dem Order-Objekt zu
             if (registrationDto.UserId != null)
             {
                 registrationModel.UserId = registrationDto.UserId;
-                
             }
 
-            _dbContext.Registrations.Add(registrationModel);
-            _dbContext.SaveChanges();
+            // Fügen Sie das Order-Objekt in die MongoDB-Sammlung ein
+            _dbContext.Registrations.InsertOne(registrationModel);
 
+            // Erfolgreiche Antwort an den Client senden
             return Ok("Data received successfully and saved to the database");
         }
         catch (Exception ex)
         {
+            // Bei Fehlern eine entsprechende Fehlermeldung an den Client senden
             return StatusCode(500, $"Internal Server Error: {ex.Message}");
         }
     }
 
+
+
+
     [HttpPut("{name}")]
     public IActionResult UpdateRegistration(string name, [FromBody] RegistrationDto registrationDto)
     {
-        var existingRegistration = _dbContext.Registrations.FirstOrDefault(r => r.Name == name);
+        var existingRegistration = _dbContext.Registrations.Find(r => r.Name == name).FirstOrDefault();
 
         if (existingRegistration == null)
         {
@@ -91,27 +103,29 @@ public class RegistrationController : ControllerBase
         existingRegistration.ServiceId = registrationDto.ServiceId;
         existingRegistration.PickupDate = registrationDto.PickupDate;
 
-        _dbContext.SaveChanges();
+        // Save the changes to MongoDB
+        _dbContext.Registrations.ReplaceOne(r => r.Name == name, existingRegistration);
 
         return Ok("Registration updated successfully");
     }
-  
-
 
     [HttpDelete("{name}")]
     [Authorize]
     public IActionResult DeleteRegistration(string name)
     {
-        var registration = _dbContext.Registrations.FirstOrDefault(r => r.Name == name);
+        var registration = _dbContext.Registrations.Find(r => r.Name == name).FirstOrDefault();
 
         if (registration == null)
         {
             return NotFound("Registration not found");
         }
 
-        _dbContext.Registrations.Remove(registration);
-        _dbContext.SaveChanges();
+        // Delete the document from MongoDB
+        _dbContext.Registrations.DeleteOne(r => r.Name == name);
 
         return Ok("Registration deleted successfully");
     }
+
+
+
 }

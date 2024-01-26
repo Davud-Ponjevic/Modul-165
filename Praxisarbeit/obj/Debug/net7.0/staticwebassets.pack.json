@@ -1,27 +1,27 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\davud\\OneDrive\\Desktop\\Praxisarbeit\\Praxisarbeit\\wwwroot\\angebot.html",
+      "Id": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\wwwroot\\angebot.html",
       "PackagePath": "staticwebassets\\angebot.html"
     },
     {
-      "Id": "C:\\Users\\davud\\OneDrive\\Desktop\\Praxisarbeit\\Praxisarbeit\\wwwroot\\bilder\\Hintergrundfürwebseite.jpg",
+      "Id": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\wwwroot\\bilder\\Hintergrundfürwebseite.jpg",
       "PackagePath": "staticwebassets\\bilder\\Hintergrundfürwebseite.jpg"
     },
     {
-      "Id": "C:\\Users\\davud\\OneDrive\\Desktop\\Praxisarbeit\\Praxisarbeit\\wwwroot\\bilder\\LogoJetstream.png",
+      "Id": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\wwwroot\\bilder\\LogoJetstream.png",
       "PackagePath": "staticwebassets\\bilder\\LogoJetstream.png"
     },
     {
-      "Id": "C:\\Users\\davud\\OneDrive\\Desktop\\Praxisarbeit\\Praxisarbeit\\wwwroot\\index.html",
+      "Id": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\davud\\OneDrive\\Desktop\\Praxisarbeit\\Praxisarbeit\\wwwroot\\scripts\\main.js",
+      "Id": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\wwwroot\\scripts\\main.js",
       "PackagePath": "staticwebassets\\scripts\\main.js"
     },
     {
-      "Id": "C:\\Users\\davud\\OneDrive\\Desktop\\Praxisarbeit\\Praxisarbeit\\wwwroot\\styles\\main.css",
+      "Id": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\wwwroot\\styles\\main.css",
       "PackagePath": "staticwebassets\\styles\\main.css"
     },
     {

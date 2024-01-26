@@ -1,16 +1,17 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿namespace Praxisarbeit.Model;
 
-namespace Praxisarbeit.Model
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
+
+public class Priority
 {
-    public class Priority
-    {
-        [Key]
-        public int Id { get; set; }
+    [BsonId]
+    [BsonRepresentation(BsonType.ObjectId)]
+    public string Id { get; set; }
 
-        [Required]
-        public string PriorityType { get; set; }
+    public string PriorityType { get; set; }
 
-        [Required]
-        public int DaysToCompletion { get; set; }
-    }
+    public int DaysToCompletion { get; set; }
 }
+
+

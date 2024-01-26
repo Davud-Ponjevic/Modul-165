@@ -1,18 +1,18 @@
-using Microsoft.EntityFrameworkCore;
-using Praxisarbeit.Model;
-using Microsoft.OpenApi;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.AspNetCore.Builder;
-using Serilog.Events;
-using Serilog;
-using Praxisarbeit.Services;
 using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using MongoDB.Driver;
+using Praxisarbeit.Services;
 using System.Text;
+
+
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
+using Serilog;
+using System;
+using Serilog.Events;
 
 public class Program
 {
@@ -40,13 +40,11 @@ public class Program
         }
     }
 
-
     public static IHostBuilder CreateHostBuilder(string[] args) =>
         Host.CreateDefaultBuilder(args)
-        .UseSerilog()
+            .UseSerilog()
             .ConfigureWebHostDefaults(webBuilder =>
             {
-                
                 webBuilder.UseStartup<Startup>();
             });
 }
@@ -63,8 +61,7 @@ public class Startup
     public void ConfigureServices(IServiceCollection services)
     {
         // Configuration of services, e.g., DbContext
-        services.AddDbContext<AppDbContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+        services.AddScoped<AppDbContext>();
 
         services.AddSingleton<ITokenService, TokenService>();
 
@@ -98,12 +95,10 @@ public class Startup
                     },
                     new string[] {}
                 }
-            });     
+            });
         });
 
-        //
         // JWT
-        //
         services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             .AddJwtBearer(options =>
             {
@@ -146,9 +141,5 @@ public class Startup
         {
             endpoints.MapControllers();
         });
-
-        
-        
-        
     }
 }
