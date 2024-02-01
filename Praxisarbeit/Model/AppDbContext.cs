@@ -1,11 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Praxisarbeit.Model;
-using System.Security.Cryptography;
+﻿using Microsoft.Extensions.Configuration;
 using MongoDB.Driver;
-using Microsoft.Extensions.Configuration;
+using Praxisarbeit.Model;
+using System;
 
-
-public class AppDbContext : DbContext
+public class AppDbContext
 {
     private readonly IMongoDatabase _database;
 
@@ -21,12 +19,11 @@ public class AppDbContext : DbContext
     public IMongoCollection<User> Users => _database.GetCollection<User>("Users");
     public IMongoCollection<Service> Services => _database.GetCollection<Service>("Services");
 
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    public void SeedData()
     {
-        base.OnModelCreating(modelBuilder);
-
         // Users hinzufügen
-        modelBuilder.Entity<User>().HasData(
+        Users.InsertMany(new[]
+        {
             new User() { Id = "1", UserName = "admin", Password = "admin" },
             new User() { Id = "2", UserName = "Mitarbeiter1", Password = "M1" },
             new User() { Id = "3", UserName = "Mitarbeiter2", Password = "M2" },
@@ -38,23 +35,25 @@ public class AppDbContext : DbContext
             new User() { Id = "9", UserName = "Mitarbeiter8", Password = "M8" },
             new User() { Id = "10", UserName = "Mitarbeiter9", Password = "M9" },
             new User() { Id = "11", UserName = "Mitarbeiter10", Password = "M10" }
-        );
+        });
 
         // Properties hinzufügen
-        modelBuilder.Entity<Priority>().HasData(
+        Priorities.InsertMany(new[]
+        {
             new Priority() { Id = "1", PriorityType = "Tief", DaysToCompletion = 12 },
             new Priority() { Id = "2", PriorityType = "Standard", DaysToCompletion = 7 },
             new Priority() { Id = "3", PriorityType = "Express", DaysToCompletion = 5 }
-        );
+        });
 
         // Service hinzufügen
-        modelBuilder.Entity<Service>().HasData(
+        Services.InsertMany(new[]
+        {
             new Service() { Id = "1", Beschreibung = "Kleiner Service" },
             new Service() { Id = "2", Beschreibung = "Grosser Service" },
             new Service() { Id = "3", Beschreibung = "Rennski-Service" },
             new Service() { Id = "4", Beschreibung = "Bindung montieren und einstellen" },
             new Service() { Id = "5", Beschreibung = "Fell zuschneiden" },
             new Service() { Id = "6", Beschreibung = "Heisswachsen" }
-        );
+        });
     }
 }

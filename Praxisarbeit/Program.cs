@@ -1,18 +1,17 @@
+using System;
+using System.IO;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Serilog;
+using Serilog.Events;
 using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
-using MongoDB.Driver;
-using Praxisarbeit.Services;
 using System.Text;
-
-
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Hosting;
-using Serilog;
-using System;
-using Serilog.Events;
+using Praxisarbeit.Services;
+using MongoDB.Driver;
 
 public class Program
 {
@@ -42,6 +41,17 @@ public class Program
 
     public static IHostBuilder CreateHostBuilder(string[] args) =>
         Host.CreateDefaultBuilder(args)
+            .ConfigureAppConfiguration((hostingContext, config) =>
+            {
+                config.SetBasePath(Directory.GetCurrentDirectory());
+                config.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+                config.AddJsonFile($"appsettings.{hostingContext.HostingEnvironment.EnvironmentName}.json", optional: true, reloadOnChange: true);
+                config.AddEnvironmentVariables();
+                if (args != null)
+                {
+                    config.AddCommandLine(args);
+                }
+            })
             .UseSerilog()
             .ConfigureWebHostDefaults(webBuilder =>
             {
@@ -60,15 +70,15 @@ public class Startup
 
     public void ConfigureServices(IServiceCollection services)
     {
-        // Configuration of services, e.g., DbContext
-        services.AddScoped<AppDbContext>();
+        services.AddSingleton<IMongoDatabase>(provider =>
+        {
+            var connectionString = Configuration.GetConnectionString("MongoConnection");
+            var client = new MongoClient(connectionString);
+            return client.GetDatabase("Modul165");
+        });
 
-        services.AddSingleton<ITokenService, TokenService>();
-
-        // Additional services
         services.AddControllers();
 
-        // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         services.AddEndpointsApiExplorer();
         services.AddSwaggerGen(c =>
         {
@@ -98,7 +108,6 @@ public class Startup
             });
         });
 
-        // JWT
         services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             .AddJwtBearer(options =>
             {
@@ -124,19 +133,16 @@ public class Startup
         }
         else
         {
-            // Configuration for production environment
             app.UseExceptionHandler("/Home/Error");
             app.UseHsts();
         }
 
-        // Middleware for routing
         app.UseHttpsRedirection();
         app.UseStaticFiles();
         app.UseRouting();
         app.UseAuthentication();
         app.UseAuthorization();
 
-        // Middleware for endpoints
         app.UseEndpoints(endpoints =>
         {
             endpoints.MapControllers();
