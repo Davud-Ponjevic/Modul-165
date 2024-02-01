@@ -19,21 +19,23 @@ namespace Praxisarbeit.Controllers
             _dbContext = dbContext;
             _tokenService = tokenService;
         }
+        
+
 
         [HttpPost("login")]
         public IActionResult Login(LoginDto model)
         {
-            var user = _dbContext.Users.Find(u => u.UserName == model.UserName).FirstOrDefault();
+            var user = _dbContext.Users.Find(u => u.userName == model.UserName).FirstOrDefault();
             if (user == null)
             {
                 return BadRequest("User not found");
             }
 
-            if (user.Password.Equals(model.Password))
+            if (user.password.Equals(model.Password))
             {
                 var token = _tokenService.CreateToken(model.UserName);
                 return Ok(
-                    new JsonResult(new { token = token, username = user.UserName })
+                    new JsonResult(new { token = token, username = user.userName })
                 );
             }
 

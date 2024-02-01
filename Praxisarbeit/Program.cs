@@ -77,6 +77,10 @@ public class Startup
             return client.GetDatabase("Modul165");
         });
 
+        services.AddScoped<AppDbContext>();
+        services.AddScoped<ITokenService, TokenService>();
+
+
         services.AddControllers();
 
         services.AddEndpointsApiExplorer();

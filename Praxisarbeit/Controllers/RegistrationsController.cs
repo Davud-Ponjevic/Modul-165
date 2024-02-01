@@ -1,12 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Authorization;
 using Praxisarbeit.Model;
-using System;
-using System.Linq;
 using Praxisarbeit.Dto;
 using MongoDB.Driver;
-
+using System;
+using System.Linq;
+using Microsoft.AspNetCore.Authorization;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -26,12 +24,10 @@ public class RegistrationController : ControllerBase
         return Ok(registrations);
     }
 
-
     [HttpGet("{name}")]
     public IActionResult GetRegistrationByName(string name)
     {
         var registration = _dbContext.Registrations.Find(r => r.Name == name).FirstOrDefault();
-
 
         if (registration == null)
         {
@@ -58,16 +54,29 @@ public class RegistrationController : ControllerBase
                 Name = registrationDto.Name,
                 Email = registrationDto.Email,
                 Phone = registrationDto.Phone,
-                PriorityId = registrationDto.PriorityId,
-                ServiceId = registrationDto.ServiceId,
                 CreateDate = DateTime.Now,
                 PickupDate = registrationDto.PickupDate
             };
 
-            // Falls UserId vorhanden ist, weisen Sie es dem Order-Objekt zu
-            if (registrationDto.UserId != null)
+            // Parsen Sie die PriorityId und ServiceId aus dem DTO und weisen Sie sie zu
+            if (int.TryParse(registrationDto.PriorityId, out int priorityId))
             {
-                registrationModel.UserId = registrationDto.UserId;
+                registrationModel.PriorityId = priorityId;
+            }
+            else
+            {
+                // Geben Sie eine Fehlermeldung zurück, wenn die PriorityId nicht in ein int umgewandelt werden kann
+                return BadRequest("Invalid PriorityId");
+            }
+
+            if (int.TryParse(registrationDto.ServiceId, out int serviceId))
+            {
+                registrationModel.ServiceId = serviceId;
+            }
+            else
+            {
+                // Geben Sie eine Fehlermeldung zurück, wenn die ServiceId nicht in ein int umgewandelt werden kann
+                return BadRequest("Invalid ServiceId");
             }
 
             // Fügen Sie das Order-Objekt in die MongoDB-Sammlung ein
@@ -83,9 +92,6 @@ public class RegistrationController : ControllerBase
         }
     }
 
-
-
-
     [HttpPut("{name}")]
     public IActionResult UpdateRegistration(string name, [FromBody] RegistrationDto registrationDto)
     {
@@ -99,8 +105,8 @@ public class RegistrationController : ControllerBase
         existingRegistration.Name = registrationDto.Name;
         existingRegistration.Email = registrationDto.Email;
         existingRegistration.Phone = registrationDto.Phone;
-        existingRegistration.PriorityId = registrationDto.PriorityId;
-        existingRegistration.ServiceId = registrationDto.ServiceId;
+        existingRegistration.PriorityId = int.Parse(registrationDto.PriorityId);
+        existingRegistration.ServiceId = int.Parse(registrationDto.ServiceId);
         existingRegistration.PickupDate = registrationDto.PickupDate;
 
         // Save the changes to MongoDB
@@ -126,6 +132,17 @@ public class RegistrationController : ControllerBase
         return Ok("Registration deleted successfully");
     }
 
-
-
+    [HttpGet("users")]
+    public IActionResult GetUsers()
+    {
+        try
+        {
+            var users = _dbContext.Users.Find(_ => true).ToList();
+            return Ok(users);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, $"Internal Server Error: {ex.Message}");
+        }
+    }
 }

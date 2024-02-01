@@ -24,18 +24,18 @@ public class AppDbContext
         // Users hinzufügen
         Users.InsertMany(new[]
         {
-            new User() { Id = "1", UserName = "admin", Password = "admin" },
-            new User() { Id = "2", UserName = "Mitarbeiter1", Password = "M1" },
-            new User() { Id = "3", UserName = "Mitarbeiter2", Password = "M2" },
-            new User() { Id = "4", UserName = "Mitarbeiter3", Password = "M3" },
-            new User() { Id = "5", UserName = "Mitarbeiter4", Password = "M4" },
-            new User() { Id = "6", UserName = "Mitarbeiter5", Password = "M5" },
-            new User() { Id = "7", UserName = "Mitarbeiter6", Password = "M6" },
-            new User() { Id = "8", UserName = "Mitarbeiter7", Password = "M7" },
-            new User() { Id = "9", UserName = "Mitarbeiter8", Password = "M8" },
-            new User() { Id = "10", UserName = "Mitarbeiter9", Password = "M9" },
-            new User() { Id = "11", UserName = "Mitarbeiter10", Password = "M10" }
-        });
+            new User() { Id = "1", userName = "admin", password = "admin" },
+            new User() { Id = "2", userName = "Mitarbeiter1", password = "M1" },
+            new User() { Id = "3", userName = "Mitarbeiter2", password = "M2" },
+            new User() { Id = "4", userName = "Mitarbeiter3", password = "M3" },
+            new User() { Id = "5", userName = "Mitarbeiter4", password = "M4" },
+            new User() { Id = "6", userName = "Mitarbeiter5", password = "M5" },
+            new User() { Id = "7", userName = "Mitarbeiter6", password = "M6" },
+            new User() { Id = "8", userName = "Mitarbeiter7", password = "M7" },
+            new User() { Id = "9", userName = "Mitarbeiter8", password = "M8" },
+            new User() { Id = "10", userName = "Mitarbeiter9", password = "M9" },
+            new User() { Id = "11", userName = "Mitarbeiter10", password = "M10" }
+        }); 
 
         // Properties hinzufügen
         Priorities.InsertMany(new[]
