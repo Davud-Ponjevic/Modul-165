@@ -93,6 +93,8 @@ public class RegistrationController : ControllerBase
     }
 
     [HttpPut("{name}")]
+
+
     public IActionResult UpdateRegistration(string name, [FromBody] RegistrationDto registrationDto)
     {
         var existingRegistration = _dbContext.Registrations.Find(r => r.Name == name).FirstOrDefault();

@@ -7,7 +7,7 @@ public class Service
 {
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
-    public string Id { get; set; }
+    public int Id { get; set; }
 
     public string Beschreibung { get; set; }
 }

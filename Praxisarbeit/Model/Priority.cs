@@ -11,7 +11,7 @@ public class Priority
 
     public string PriorityType { get; set; }
 
-    public int DaysToCompletion { get; set; }
+    public DateTime DaysToCompletion { get; set; }
 }
 
 
