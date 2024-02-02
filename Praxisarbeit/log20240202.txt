@@ -1,0 +1,162 @@
+2024-02-02 08:33:35.919 +01:00 [INF] User profile is available. Using 'C:\Users\davud\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-02 08:33:37.000 +01:00 [INF] Now listening on: https://localhost:7113
+2024-02-02 08:33:37.002 +01:00 [INF] Now listening on: http://localhost:5297
+2024-02-02 08:33:37.004 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-02 08:33:37.005 +01:00 [INF] Hosting environment: Development
+2024-02-02 08:33:37.007 +01:00 [INF] Content root path: C:\Github\Modul 165\Modul-165\Praxisarbeit
+2024-02-02 08:33:39.816 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/swagger - -
+2024-02-02 08:33:39.991 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/swagger - - - 301 0 - 178.6524ms
+2024-02-02 08:33:39.997 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/swagger/index.html - -
+2024-02-02 08:33:40.071 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/swagger/index.html - - - 200 - text/html;charset=utf-8 74.5873ms
+2024-02-02 08:33:40.075 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/swagger/swagger-ui.css - -
+2024-02-02 08:33:40.075 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/swagger/swagger-ui-standalone-preset.js - -
+2024-02-02 08:33:40.077 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/_vs/browserLink - -
+2024-02-02 08:33:40.075 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - -
+2024-02-02 08:33:40.075 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/swagger/swagger-ui-bundle.js - -
+2024-02-02 08:33:40.098 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - - - 200 13760 application/javascript;+charset=utf-8 22.0995ms
+2024-02-02 08:33:40.137 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-02-02 08:33:40.137 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-02-02 08:33:40.139 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 64.2805ms
+2024-02-02 08:33:40.141 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/swagger/swagger-ui.css - - - 200 144929 text/css 66.3572ms
+2024-02-02 08:33:40.157 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-02-02 08:33:40.159 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 83.9943ms
+2024-02-02 08:33:40.181 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 104.7212ms
+2024-02-02 08:33:40.274 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - -
+2024-02-02 08:33:40.301 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/swagger/favicon-32x32.png - -
+2024-02-02 08:33:40.303 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-02-02 08:33:40.305 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/swagger/favicon-32x32.png - - - 200 628 image/png 4.4260ms
+2024-02-02 08:33:40.378 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 104.1970ms
+2024-02-02 08:33:51.884 +01:00 [INF] User profile is available. Using 'C:\Users\davud\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-02 08:33:52.300 +01:00 [INF] Now listening on: https://localhost:7113
+2024-02-02 08:33:52.302 +01:00 [INF] Now listening on: http://localhost:5297
+2024-02-02 08:33:52.306 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-02 08:33:52.308 +01:00 [INF] Hosting environment: Development
+2024-02-02 08:33:52.309 +01:00 [INF] Content root path: C:\Github\Modul 165\Modul-165\Praxisarbeit
+2024-02-02 08:33:52.667 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/swagger/index.html - -
+2024-02-02 08:33:52.856 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/swagger/index.html - - - 200 - text/html;charset=utf-8 188.2618ms
+2024-02-02 08:33:52.859 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - -
+2024-02-02 08:33:52.859 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/_vs/browserLink - -
+2024-02-02 08:33:52.866 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - - - 200 13760 application/javascript;+charset=utf-8 6.7896ms
+2024-02-02 08:33:52.905 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.1478ms
+2024-02-02 08:33:53.034 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - -
+2024-02-02 08:33:53.111 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 77.1930ms
+2024-02-02 08:33:56.013 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/swagger/index.html - -
+2024-02-02 08:33:56.026 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/swagger/index.html - - - 200 - text/html;charset=utf-8 12.8876ms
+2024-02-02 08:33:56.058 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - -
+2024-02-02 08:33:56.064 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - - - 200 13760 application/javascript;+charset=utf-8 6.9943ms
+2024-02-02 08:33:56.082 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/_vs/browserLink - -
+2024-02-02 08:33:56.107 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.4582ms
+2024-02-02 08:33:56.193 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - -
+2024-02-02 08:33:56.209 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 16.3540ms
+2024-02-02 08:34:09.827 +01:00 [INF] User profile is available. Using 'C:\Users\davud\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-02 08:34:10.796 +01:00 [INF] Now listening on: https://localhost:7113
+2024-02-02 08:34:10.798 +01:00 [INF] Now listening on: http://localhost:5297
+2024-02-02 08:34:10.800 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-02 08:34:10.801 +01:00 [INF] Hosting environment: Development
+2024-02-02 08:34:10.802 +01:00 [INF] Content root path: C:\Github\Modul 165\Modul-165\Praxisarbeit
+2024-02-02 08:34:13.720 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/swagger/index.html - -
+2024-02-02 08:34:14.144 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/swagger/index.html - - - 200 - text/html;charset=utf-8 428.3133ms
+2024-02-02 08:34:14.146 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/_vs/browserLink - -
+2024-02-02 08:34:14.146 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - -
+2024-02-02 08:34:14.156 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - - - 200 13760 application/javascript;+charset=utf-8 9.4358ms
+2024-02-02 08:34:14.210 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 63.7377ms
+2024-02-02 08:34:14.246 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - -
+2024-02-02 08:34:14.419 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 173.3841ms
+2024-02-02 08:34:22.808 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/api/Registration/users - -
+2024-02-02 08:34:23.018 +01:00 [INF] Executing endpoint 'RegistrationController.GetUsers (Praxisarbeit)'
+2024-02-02 08:34:23.072 +01:00 [INF] Route matched with {action = "GetUsers", controller = "Registration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller RegistrationController (Praxisarbeit).
+2024-02-02 08:34:24.148 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Praxisarbeit.Model.User, Praxisarbeit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-02 08:34:24.176 +01:00 [INF] Executed action RegistrationController.GetUsers (Praxisarbeit) in 1092.0973ms
+2024-02-02 08:34:24.185 +01:00 [INF] Executed endpoint 'RegistrationController.GetUsers (Praxisarbeit)'
+2024-02-02 08:34:24.189 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/api/Registration/users - - - 200 - application/json;+charset=utf-8 1380.4861ms
+2024-02-02 08:34:41.411 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7113/api/Users/login application/json 48
+2024-02-02 08:34:41.416 +01:00 [INF] Executing endpoint 'Praxisarbeit.Controllers.UsersController.Login (Praxisarbeit)'
+2024-02-02 08:34:41.433 +01:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Praxisarbeit.Dto.LoginDto) on controller Praxisarbeit.Controllers.UsersController (Praxisarbeit).
+2024-02-02 08:34:41.754 +01:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.JsonResult'.
+2024-02-02 08:34:41.775 +01:00 [INF] Executed action Praxisarbeit.Controllers.UsersController.Login (Praxisarbeit) in 338.2289ms
+2024-02-02 08:34:41.779 +01:00 [INF] Executed endpoint 'Praxisarbeit.Controllers.UsersController.Login (Praxisarbeit)'
+2024-02-02 08:34:41.782 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7113/api/Users/login application/json 48 - 200 - application/json;+charset=utf-8 370.3915ms
+2024-02-02 08:38:51.804 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7113/api/Users/login application/json 48
+2024-02-02 08:38:51.888 +01:00 [INF] Executing endpoint 'Praxisarbeit.Controllers.UsersController.Login (Praxisarbeit)'
+2024-02-02 08:38:51.893 +01:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Praxisarbeit.Dto.LoginDto) on controller Praxisarbeit.Controllers.UsersController (Praxisarbeit).
+2024-02-02 08:38:51.905 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-02-02 08:38:51.913 +01:00 [INF] Executed action Praxisarbeit.Controllers.UsersController.Login (Praxisarbeit) in 15.7499ms
+2024-02-02 08:38:51.925 +01:00 [INF] Executed endpoint 'Praxisarbeit.Controllers.UsersController.Login (Praxisarbeit)'
+2024-02-02 08:38:51.928 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7113/api/Users/login application/json 48 - 400 - text/plain;+charset=utf-8 123.6709ms
+2024-02-02 08:43:41.191 +01:00 [INF] User profile is available. Using 'C:\Users\davud\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-02 08:43:41.519 +01:00 [INF] Now listening on: https://localhost:7113
+2024-02-02 08:43:41.520 +01:00 [INF] Now listening on: http://localhost:5297
+2024-02-02 08:43:41.522 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-02 08:43:41.524 +01:00 [INF] Hosting environment: Development
+2024-02-02 08:43:41.525 +01:00 [INF] Content root path: C:\Github\Modul 165\Modul-165\Praxisarbeit
+2024-02-02 08:43:44.188 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/swagger/index.html - -
+2024-02-02 08:43:44.368 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/_vs/browserLink - -
+2024-02-02 08:43:44.368 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - -
+2024-02-02 08:43:44.371 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/swagger/index.html - - - 200 - text/html;charset=utf-8 183.7590ms
+2024-02-02 08:43:44.386 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - - - 200 13760 application/javascript;+charset=utf-8 18.2748ms
+2024-02-02 08:43:44.414 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.4862ms
+2024-02-02 08:43:44.447 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - -
+2024-02-02 08:43:44.520 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 72.7268ms
+2024-02-02 08:45:53.935 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7113/api/Users/login application/json 48
+2024-02-02 08:45:54.125 +01:00 [INF] Executing endpoint 'Praxisarbeit.Controllers.UsersController.Login (Praxisarbeit)'
+2024-02-02 08:45:54.171 +01:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Praxisarbeit.Dto.LoginDto) on controller Praxisarbeit.Controllers.UsersController (Praxisarbeit).
+2024-02-02 08:45:54.826 +01:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.JsonResult'.
+2024-02-02 08:45:54.858 +01:00 [INF] Executed action Praxisarbeit.Controllers.UsersController.Login (Praxisarbeit) in 668.1732ms
+2024-02-02 08:45:54.863 +01:00 [INF] Executed endpoint 'Praxisarbeit.Controllers.UsersController.Login (Praxisarbeit)'
+2024-02-02 08:45:54.865 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7113/api/Users/login application/json 48 - 200 - application/json;+charset=utf-8 929.8568ms
+2024-02-02 09:47:08.265 +01:00 [INF] User profile is available. Using 'C:\Users\davud\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-02 09:47:08.859 +01:00 [INF] Now listening on: https://localhost:7113
+2024-02-02 09:47:08.862 +01:00 [INF] Now listening on: http://localhost:5297
+2024-02-02 09:47:08.864 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-02 09:47:08.865 +01:00 [INF] Hosting environment: Development
+2024-02-02 09:47:08.867 +01:00 [INF] Content root path: C:\Github\Modul 165\Modul-165\Praxisarbeit
+2024-02-02 09:47:11.226 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/swagger/index.html - -
+2024-02-02 09:47:11.601 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/swagger/index.html - - - 200 - text/html;charset=utf-8 376.5859ms
+2024-02-02 09:47:11.609 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - -
+2024-02-02 09:47:11.621 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - - - 200 13760 application/javascript;+charset=utf-8 12.2337ms
+2024-02-02 09:47:11.638 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/_vs/browserLink - -
+2024-02-02 09:47:11.732 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 94.0186ms
+2024-02-02 09:47:11.841 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - -
+2024-02-02 09:47:11.975 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 133.8187ms
+2024-02-02 09:49:07.948 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7113/api/Registration - -
+2024-02-02 09:49:08.132 +01:00 [INF] Executing endpoint 'RegistrationController.GetAllRegistrations (Praxisarbeit)'
+2024-02-02 09:49:08.157 +01:00 [INF] Route matched with {action = "GetAllRegistrations", controller = "Registration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllRegistrations() on controller RegistrationController (Praxisarbeit).
+2024-02-02 09:49:08.598 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Praxisarbeit.Model.Order, Praxisarbeit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-02 09:49:08.725 +01:00 [INF] Executed action RegistrationController.GetAllRegistrations (Praxisarbeit) in 560.8514ms
+2024-02-02 09:49:08.729 +01:00 [INF] Executed endpoint 'RegistrationController.GetAllRegistrations (Praxisarbeit)'
+2024-02-02 09:49:08.733 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7113/api/Registration - - - 200 - application/json;+charset=utf-8 785.2609ms
+2024-02-02 09:49:08.821 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7113/api/Registration/Davud - -
+2024-02-02 09:49:08.830 +01:00 [INF] Executing endpoint 'RegistrationController.GetRegistrationByName (Praxisarbeit)'
+2024-02-02 09:49:08.857 +01:00 [INF] Route matched with {action = "GetRegistrationByName", controller = "Registration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetRegistrationByName(System.String) on controller RegistrationController (Praxisarbeit).
+2024-02-02 09:49:08.926 +01:00 [INF] Executing OkObjectResult, writing value of type 'Praxisarbeit.Model.Order'.
+2024-02-02 09:49:08.930 +01:00 [INF] Executed action RegistrationController.GetRegistrationByName (Praxisarbeit) in 68.3734ms
+2024-02-02 09:49:08.932 +01:00 [INF] Executed endpoint 'RegistrationController.GetRegistrationByName (Praxisarbeit)'
+2024-02-02 09:49:08.934 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7113/api/Registration/Davud - - - 200 - application/json;+charset=utf-8 112.7398ms
+2024-02-02 09:49:09.008 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7113/api/Registration application/json 220
+2024-02-02 09:49:09.013 +01:00 [INF] Executing endpoint 'RegistrationController.CreateRegistration (Praxisarbeit)'
+2024-02-02 09:49:09.019 +01:00 [INF] Route matched with {action = "CreateRegistration", controller = "Registration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateRegistration(Praxisarbeit.Dto.RegistrationDto) on controller RegistrationController (Praxisarbeit).
+2024-02-02 09:49:09.088 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-02-02 09:49:09.094 +01:00 [INF] Executed action RegistrationController.CreateRegistration (Praxisarbeit) in 67.8909ms
+2024-02-02 09:49:09.098 +01:00 [INF] Executed endpoint 'RegistrationController.CreateRegistration (Praxisarbeit)'
+2024-02-02 09:49:09.100 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7113/api/Registration application/json 220 - 200 - text/plain;+charset=utf-8 92.6501ms
+2024-02-02 09:49:09.162 +01:00 [INF] Request starting HTTP/1.1 PUT https://localhost:7113/api/Registration/du application/json 201
+2024-02-02 09:49:09.166 +01:00 [INF] Executing endpoint 'RegistrationController.UpdateRegistration (Praxisarbeit)'
+2024-02-02 09:49:09.172 +01:00 [INF] Route matched with {action = "UpdateRegistration", controller = "Registration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateRegistration(System.String, Praxisarbeit.Dto.RegistrationDto) on controller RegistrationController (Praxisarbeit).
+2024-02-02 09:49:09.188 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-02-02 09:49:09.190 +01:00 [INF] Executed action RegistrationController.UpdateRegistration (Praxisarbeit) in 14.3112ms
+2024-02-02 09:49:09.192 +01:00 [INF] Executed endpoint 'RegistrationController.UpdateRegistration (Praxisarbeit)'
+2024-02-02 09:49:09.193 +01:00 [INF] Request finished HTTP/1.1 PUT https://localhost:7113/api/Registration/du application/json 201 - 200 - text/plain;+charset=utf-8 30.6165ms
+2024-02-02 09:49:09.269 +01:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7113/api/Registration/update - -
+2024-02-02 09:49:09.403 +01:00 [INF] Executing endpoint 'RegistrationController.DeleteRegistration (Praxisarbeit)'
+2024-02-02 09:49:09.408 +01:00 [INF] Route matched with {action = "DeleteRegistration", controller = "Registration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteRegistration(System.String) on controller RegistrationController (Praxisarbeit).
+2024-02-02 09:49:09.422 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-02-02 09:49:09.424 +01:00 [INF] Executed action RegistrationController.DeleteRegistration (Praxisarbeit) in 11.0526ms
+2024-02-02 09:49:09.426 +01:00 [INF] Executed endpoint 'RegistrationController.DeleteRegistration (Praxisarbeit)'
+2024-02-02 09:49:09.427 +01:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7113/api/Registration/update - - - 200 - text/plain;+charset=utf-8 157.3373ms
+2024-02-02 09:52:48.480 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7113/api/Users/login application/json 48
+2024-02-02 09:52:48.499 +01:00 [INF] Executing endpoint 'Praxisarbeit.Controllers.UsersController.Login (Praxisarbeit)'
+2024-02-02 09:52:48.507 +01:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Praxisarbeit.Dto.LoginDto) on controller Praxisarbeit.Controllers.UsersController (Praxisarbeit).
+2024-02-02 09:52:48.548 +01:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.JsonResult'.
+2024-02-02 09:52:48.564 +01:00 [INF] Executed action Praxisarbeit.Controllers.UsersController.Login (Praxisarbeit) in 54.3706ms
+2024-02-02 09:52:48.582 +01:00 [INF] Executed endpoint 'Praxisarbeit.Controllers.UsersController.Login (Praxisarbeit)'
+2024-02-02 09:52:48.584 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7113/api/Users/login application/json 48 - 200 - application/json;+charset=utf-8 106.3700ms

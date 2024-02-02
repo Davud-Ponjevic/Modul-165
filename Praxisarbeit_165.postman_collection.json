@@ -1,0 +1,154 @@
+{
+	"info": {
+		"_postman_id": "94578db5-8176-44c4-b569-816227ab839b",
+		"name": "Praxisarbeit_165",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29157746"
+	},
+	"item": [
+		{
+			"name": "Registration",
+			"item": [
+				{
+					"name": "All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7113/api/Registration",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7113",
+							"path": [
+								"api",
+								"Registration"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ByName",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7113/api/Registration/Davud",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7113",
+							"path": [
+								"api",
+								"Registration",
+								"Davud"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "NewPerson",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"du\",\r\n  \"email\": \"string\",\r\n  \"phone\": \"string\",\r\n  \"priorityId\": \"3\",\r\n  \"serviceId\": \"5\",\r\n  \"userId\": \"string\",\r\n  \"createDate\": \"2024-02-01T13:43:16.727Z\",\r\n  \"pickupDate\": \"2024-02-01T13:43:16.727Z\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7113/api/Registration",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7113",
+							"path": [
+								"api",
+								"Registration"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Person",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"update\",\r\n  \"email\": \"string\",\r\n  \"phone\": \"string\",\r\n  \"priorityId\": \"1\",\r\n  \"serviceId\": \"2\",\r\n  \"createDate\": \"2024-02-01T13:36:12.438Z\",\r\n  \"pickupDate\": \"2024-02-01T13:36:12.438Z\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7113/api/Registration/du",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7113",
+							"path": [
+								"api",
+								"Registration",
+								"du"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Person",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJhZG1pbiIsIm5iZiI6MTcwNjc5NDY0NCwiZXhwIjoxNzA2ODgxMDQ0LCJpYXQiOjE3MDY3OTQ2NDR9.IFFw8cq3faIc6oIuCSSrkqgJ0Q486ZMTjG4ePzpviRkc2YNz0HsUyZleSJIGmHbcClak1HOgCDGPbo_rJ7LQZw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7113/api/Registration/update",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7113",
+							"path": [
+								"api",
+								"Registration",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
