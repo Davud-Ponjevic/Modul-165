@@ -1,0 +1,287 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA40D18-1722-4F09-9CF6-31E86D1A2D50}|Praxisarbeit.csproj|c:\\github\\modul 165\\modul-165\\praxisarbeit\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3CA40D18-1722-4F09-9CF6-31E86D1A2D50}|Praxisarbeit.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA40D18-1722-4F09-9CF6-31E86D1A2D50}|Praxisarbeit.csproj|c:\\github\\modul 165\\modul-165\\praxisarbeit\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA40D18-1722-4F09-9CF6-31E86D1A2D50}|Praxisarbeit.csproj|solutionrelative:model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA40D18-1722-4F09-9CF6-31E86D1A2D50}|Praxisarbeit.csproj|c:\\github\\modul 165\\modul-165\\praxisarbeit\\model\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA40D18-1722-4F09-9CF6-31E86D1A2D50}|Praxisarbeit.csproj|solutionrelative:model\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA40D18-1722-4F09-9CF6-31E86D1A2D50}|Praxisarbeit.csproj|c:\\github\\modul 165\\modul-165\\praxisarbeit\\model\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA40D18-1722-4F09-9CF6-31E86D1A2D50}|Praxisarbeit.csproj|solutionrelative:model\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA40D18-1722-4F09-9CF6-31E86D1A2D50}|Praxisarbeit.csproj|c:\\github\\modul 165\\modul-165\\praxisarbeit\\model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA40D18-1722-4F09-9CF6-31E86D1A2D50}|Praxisarbeit.csproj|solutionrelative:model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA40D18-1722-4F09-9CF6-31E86D1A2D50}|Praxisarbeit.csproj|c:\\github\\modul 165\\modul-165\\praxisarbeit\\model\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA40D18-1722-4F09-9CF6-31E86D1A2D50}|Praxisarbeit.csproj|solutionrelative:model\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA40D18-1722-4F09-9CF6-31E86D1A2D50}|Praxisarbeit.csproj|c:\\github\\modul 165\\modul-165\\praxisarbeit\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA40D18-1722-4F09-9CF6-31E86D1A2D50}|Praxisarbeit.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA40D18-1722-4F09-9CF6-31E86D1A2D50}|Praxisarbeit.csproj|c:\\github\\modul 165\\modul-165\\praxisarbeit\\controllers\\registrationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA40D18-1722-4F09-9CF6-31E86D1A2D50}|Praxisarbeit.csproj|solutionrelative:controllers\\registrationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA40D18-1722-4F09-9CF6-31E86D1A2D50}|Praxisarbeit.csproj|c:\\github\\modul 165\\modul-165\\praxisarbeit\\dto\\registrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA40D18-1722-4F09-9CF6-31E86D1A2D50}|Praxisarbeit.csproj|solutionrelative:dto\\registrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA40D18-1722-4F09-9CF6-31E86D1A2D50}|Praxisarbeit.csproj|c:\\github\\modul 165\\modul-165\\praxisarbeit\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA40D18-1722-4F09-9CF6-31E86D1A2D50}|Praxisarbeit.csproj|solutionrelative:dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA40D18-1722-4F09-9CF6-31E86D1A2D50}|Praxisarbeit.csproj|c:\\github\\modul 165\\modul-165\\praxisarbeit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA40D18-1722-4F09-9CF6-31E86D1A2D50}|Praxisarbeit.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA40D18-1722-4F09-9CF6-31E86D1A2D50}|Praxisarbeit.csproj|c:\\github\\modul 165\\modul-165\\praxisarbeit\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA40D18-1722-4F09-9CF6-31E86D1A2D50}|Praxisarbeit.csproj|solutionrelative:services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-02T22:12:47.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\Model\\Service.cs",
+              "RelativeDocumentMoniker": "Model\\Service.cs",
+              "ToolTip": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\Model\\Service.cs",
+              "RelativeToolTip": "Model\\Service.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-02T21:42:07.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Priority.cs",
+              "DocumentMoniker": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\Model\\Priority.cs",
+              "RelativeDocumentMoniker": "Model\\Priority.cs",
+              "ToolTip": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\Model\\Priority.cs",
+              "RelativeToolTip": "Model\\Priority.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-02T21:38:59.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\Model\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Model\\AppDbContext.cs",
+              "ToolTip": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\Model\\AppDbContext.cs",
+              "RelativeToolTip": "Model\\AppDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-25T15:07:50.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwCEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-26T15:31:39.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegistrationsController.cs",
+              "DocumentMoniker": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\Controllers\\RegistrationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RegistrationsController.cs",
+              "ToolTip": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\Controllers\\RegistrationsController.cs",
+              "RelativeToolTip": "Controllers\\RegistrationsController.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAkwF8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-26T15:13:41.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\Model\\Order.cs",
+              "RelativeDocumentMoniker": "Model\\Order.cs",
+              "ToolTip": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\Model\\Order.cs",
+              "RelativeToolTip": "Model\\Order.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-01T09:44:53.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Model\\User.cs",
+              "ToolTip": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\Model\\User.cs",
+              "RelativeToolTip": "Model\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-01T13:23:42.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\Dto\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Dto\\LoginDto.cs",
+              "ToolTip": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\Dto\\LoginDto.cs",
+              "RelativeToolTip": "Dto\\LoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-02T13:14:20.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegistrationDto.cs",
+              "DocumentMoniker": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\Dto\\RegistrationDto.cs",
+              "RelativeDocumentMoniker": "Dto\\RegistrationDto.cs",
+              "ToolTip": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\Dto\\RegistrationDto.cs",
+              "RelativeToolTip": "Dto\\RegistrationDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-02T13:14:24.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAuwHkAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-26T15:37:41.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Services\\TokenService.cs",
+              "ToolTip": "C:\\Github\\Modul 165\\Modul-165\\Praxisarbeit\\Services\\TokenService.cs",
+              "RelativeToolTip": "Services\\TokenService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAiwCEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-01T10:27:32.776Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 934,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

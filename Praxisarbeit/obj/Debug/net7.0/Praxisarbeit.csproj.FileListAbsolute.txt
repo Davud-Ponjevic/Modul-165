@@ -218,6 +218,6 @@ C:\Github\Modul 165\Modul-165\Praxisarbeit\obj\Debug\net7.0\staticwebassets\msbu
 C:\Github\Modul 165\Modul-165\Praxisarbeit\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Praxisarbeit.props
 C:\Github\Modul 165\Modul-165\Praxisarbeit\obj\Debug\net7.0\staticwebassets.pack.json
 C:\Github\Modul 165\Modul-165\Praxisarbeit\obj\Debug\net7.0\scopedcss\bundle\Praxisarbeit.styles.css
-C:\Github\Modul 165\Modul-165\Praxisarbeit\obj\Debug\net7.0\Praxisarbeit.csproj.CopyComplete
 C:\Github\Modul 165\Modul-165\Praxisarbeit\obj\Debug\net7.0\Praxisarbeit.genruntimeconfig.cache
 C:\Github\Modul 165\Modul-165\Praxisarbeit\obj\Debug\net7.0\ref\Praxisarbeit.dll
+C:\Github\Modul 165\Modul-165\Praxisarbeit\obj\Debug\net7.0\Praxisar.9E2E60AA.Up2Date
